@@ -7,23 +7,24 @@
 
   <body>
     <!-- the entire body must be written by student -->
-    <form>
-      <label for="fontsize">Font Size:</label>
+   <form id="input-form">
+      <label for="fontsize">Font Size in PX: </label>
       <input
         type="number"
-        id="fontsize"
         name="fontsize"
+        id="fontsize"
         min="8"
         max="72"
         value="16"
       />
       <br />
-      <label for="fontcolor">Font Color:</label>
-      <input type="color" id="fontcolor" name="fontcolor" value="#000000" />
       <br />
-      <input type="submit" value="Save" />
+      <label for="fontcolor">Font Color in HEX: </label>
+      <input type="color" name="fontcolor" id="fontcolor" value="#000000" />
+      <br />
+      <br />
+      <input type="submit" value="save" />
     </form>
-
     <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>

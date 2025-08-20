@@ -22,8 +22,8 @@ function getCookie(name) {
 
 // --- Apply design by updating CSS variables ---
 function setDesign(font, color) {
-  document.documentElement.style.fontSize = font + "px";
-  document.documentElement.style.color = color;
+  document.documentElement.style.setProperty("--fontsize",font+"px");
+  document.documentElement.style.setProperty("--fontcolor",color);
 }
 
 // --- On Save button click ---
